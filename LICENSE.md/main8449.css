@@ -1,0 +1,41 @@
+.mc-wrapper{
+    font-family: inherit;
+    font-size: 14px;
+}
+.mc-wrapper label.error{
+    color: #ff0000;
+    margin-top: 5px;
+    display: block;
+}
+.mc-wrapper label{
+    color: inherit;
+    margin-bottom: 5px;
+    display: block;
+}
+.mc-wrapper input{
+    width: 100%;
+    padding: 19px 10px;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mc-wrapper input[type = "submit"]{
+    width: auto;
+    padding: 12px 20px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.mc-wrapper input,
+.mc-wrapper input:focus,
+.mc-wrapper input:active{
+    outline: none;
+}
+.mc-wrapper p{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+#mc-output{
+    display: none;
+}
